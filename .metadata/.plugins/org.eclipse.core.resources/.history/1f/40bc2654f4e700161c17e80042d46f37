@@ -1,0 +1,15 @@
+ package madlibs;
+
+/**
+ * @author AM312792
+ *Jan 31st 2017
+ */
+public class MadLibs 
+{
+	public static void main(String[] args)
+	{
+		
+
+	}
+
+}

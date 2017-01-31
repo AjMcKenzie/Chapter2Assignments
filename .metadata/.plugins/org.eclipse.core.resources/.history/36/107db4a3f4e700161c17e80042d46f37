@@ -1,0 +1,46 @@
+package madlibs;
+import javax.swing.JOptionPane;
+/**
+ * @author AM312792
+ *Jan 31st 2017
+ */
+public class MadLibs 
+{
+	public static void main(String[] args)
+	{
+		String color, wordEst, bodyPartPlural, animal, noun, pluralNoun, wholeNumber;
+		int a = 5;
+		
+		int b;
+		
+		int c;
+		
+		
+		color = JOptionPane.showInputDialog(null, "What is your color");
+		
+		wordEst = JOptionPane.showInputDialog(null, "Pick a word that ends in Est");
+		
+		bodyPartPlural = JOptionPane.showInputDialog(null, "Name a body part.");
+		
+		wholeNumber = JOptionPane.showInputDialog(null, "Give me a number that is a whole number, no decimals.");
+		b = Integer.parseInt(wholeNumber);
+		
+		animal = JOptionPane.showInputDialog(null, "Name an animal.");
+		b = Integer.parseInt(animal);
+		
+		noun = JOptionPane.showInputDialog(null, "Give a noun.");
+		b = Integer.parseInt(noun);
+		
+		pluralNoun = JOptionPane.showInputDialog(null, "Type a plural Noun.");
+		b = Integer.parseInt(pluralNoun);
+		
+		
+		c = a-b;
+		
+		
+		
+		JOptionPane.showMessageDialog(null, "The " + color + " Dragon ");
+		
+	}
+
+}
