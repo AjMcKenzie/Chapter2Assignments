@@ -25,7 +25,7 @@ public class MadLibs
 		wholeNumber = JOptionPane.showInputDialog(null, "Give a number that is a whole number, no decimals.");
 		b = Integer.parseInt(wholeNumber);
 		
-		animal = JOptionPane.showInputDialog(null, "Name a animal.");
+		animal = JOptionPane.showInputDialog(null, "Name an animal.");
 		
 		noun = JOptionPane.showInputDialog(null, "Give a noun.");
 		
@@ -39,9 +39,9 @@ public class MadLibs
 		
 		
 		
-		JOptionPane.showMessageDialog(null, " There once was a man with a  " + color + " shirt his name was Gary Busey and he is the " + wordEst + " of all humans. He has " + wholeNumber + " " + bodyPartPlural + ", and a/an "  + animal + 
-				" shaped like a " + noun + ". \n The " + animal +  " loves to eat " + pluralNoun +  ", although it will feast on nearly anything. Gary Busey's " + bodyPart + 
-				" is always cold. \n So one day Gary Busey wanted to warm up his " + bodyPartTold + " with a big bonfire. But when he was making the fire he leaned over to put more wood in it and...fell in and burn to death!");
+		JOptionPane.showMessageDialog(null, " A man with a  " + color + " shirt is named Gary Busey and he is the " + wordEst + " of all humans. he has " + wholeNumber + " " + bodyPartPlural + ", and a "  + animal + 
+				" shaped like a " + noun + ". It loves to eat " + pluralNoun +  ", although it will feast on nearly anything. Gary Busey " + bodyPart + 
+				" is always cold. So one day Gary Busey wanted to warm up it's " + bodyPartTold + ". But when he was making a fire he fell in and burn to death!");
 		
 	}
 

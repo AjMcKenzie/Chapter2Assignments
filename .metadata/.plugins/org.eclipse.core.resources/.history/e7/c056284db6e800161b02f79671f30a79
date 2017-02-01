@@ -1,0 +1,27 @@
+package initials;
+
+import javax.swing.JOptionPane;
+
+/**
+ * @author am312792
+ *Feb 1st 2017
+ */
+public class Initials 
+{
+
+	public static void main(String[] args) 
+	{
+		String A, J, M;
+		int a;
+		int b;
+		int c;
+		
+		A = JOptionPane.showInputDialog(null, "What is your first initial ");
+		J = JOptionPane.showInputDialog(null, "What is your second inital ");
+		M = JOptionPane.showInputDialog(null, "What is your third inital ");
+		
+		JOptionPane.showMessageDialog(null, "Your initials are "+ A +"."+ J +"." + M + ".");
+		
+	}
+
+}
