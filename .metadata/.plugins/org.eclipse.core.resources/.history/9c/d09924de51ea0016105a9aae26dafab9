@@ -1,0 +1,18 @@
+package youDoIt;
+
+/**
+ * @author AM312792
+ *
+ */
+public class SpaService 
+{
+	private String serviceDescription;
+	private  double price;
+}
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}
