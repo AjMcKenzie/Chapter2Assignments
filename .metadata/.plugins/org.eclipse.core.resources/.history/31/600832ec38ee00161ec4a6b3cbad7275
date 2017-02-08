@@ -106,19 +106,15 @@ public class Tacos {
 		inputDevice.nextLine();
 		
 		
-		System.out.println("                                           ");	
-		System.out.println("                                           ");
 		
 		totalPrice = (burritoOrdered * burritoPrice) + (tacoPrice * tacoOrdered) + (popOrdered * popPrice) 
 		+ (churrosOrdered * churrosPrice) + (tamalesOrdered * tamalesPrice) + (tacoSaladOrdered * tacoSaladPrice)
 		+ (chipsSalsaOrdered * chipsSalsaPrice) + (taquitosOrdered * taquitosPrice) + (chimichangaOrdered * chimichangaPrice) 
 		+ (potatoOleOrdered * potatoOlePrice);
 		
-		System.out.println("You ordered " + tacoOrdered + " tacos, " + burritoOrdered + " burritos, " + popOrdered + " Mt. Dews, " + churrosOrdered + " churros, \n" + tamalesOrdered + " tamales, " 
-		+ tacoSaladOrdered + " containers of taco salad, " + chipsSalsaOrdered + " bowls of chips & salsa, \n" + taquitosOrdered + " taquitos, " 
+		System.out.println("You ordered " + tacoOrdered + " tacos, " + burritoOrdered + " burritos, " + popOrdered + " Mt. Dews, " + churrosOrdered + " churros, \n " + tamalesOrdered + " tamales, " 
+		+ tacoSaladOrdered + " containers of taco salad, " + chipsSalsaOrdered + " bowls of chips & salsa, " + taquitosOrdered + " taquitos, " 
 		+ chimichangaOrdered + " chimichangas, and " + potatoOleOrdered + " containers of potato oles, for a total of $" + totalPrice);
-		
-		System.out.println("                                           ");
 		
 		totalPriceWithTax = totalPrice * 1.075;
 		System.out.println("Your Grand total (with tax) is $" + totalPriceWithTax);	

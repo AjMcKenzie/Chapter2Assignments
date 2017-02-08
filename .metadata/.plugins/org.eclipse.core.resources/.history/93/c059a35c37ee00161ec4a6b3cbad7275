@@ -106,22 +106,16 @@ public class Tacos {
 		inputDevice.nextLine();
 		
 		
-		System.out.println("                                           ");	
-		System.out.println("                                           ");
 		
 		totalPrice = (burritoOrdered * burritoPrice) + (tacoPrice * tacoOrdered) + (popOrdered * popPrice) 
 		+ (churrosOrdered * churrosPrice) + (tamalesOrdered * tamalesPrice) + (tacoSaladOrdered * tacoSaladPrice)
 		+ (chipsSalsaOrdered * chipsSalsaPrice) + (taquitosOrdered * taquitosPrice) + (chimichangaOrdered * chimichangaPrice) 
 		+ (potatoOleOrdered * potatoOlePrice);
 		
-		System.out.println("You ordered " + tacoOrdered + " tacos, " + burritoOrdered + " burritos, " + popOrdered + " Mt. Dews, " + churrosOrdered + " churros, \n" + tamalesOrdered + " tamales, " 
-		+ tacoSaladOrdered + " containers of taco salad, " + chipsSalsaOrdered + " bowls of chips & salsa, \n" + taquitosOrdered + " taquitos, " 
-		+ chimichangaOrdered + " chimichangas, and " + potatoOleOrdered + " containers of potato oles, for a total of $" + totalPrice);
-		
-		System.out.println("                                           ");
+		System.out.println("You ordered " + tacoOrdered + " tacos, " + burritoOrdered + " burritos, " + popOrdered + " , Mt. Dew(s), for a total of $" + totalPrice);
 		
 		totalPriceWithTax = totalPrice * 1.075;
-		System.out.println("Your Grand total (with tax) is $" + totalPriceWithTax);	
+		System.out.println("Your Grand total with tax is $" + totalPriceWithTax);	
 		
 		
 	}
@@ -129,7 +123,7 @@ public class Tacos {
 	{
 		System.out.println("                                           ");
 		System.out.println("                                           ");
-		System.out.println("  ~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~  ");
+		System.out.println("  ~_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_~  ");
 		System.out.println("  |                                     |  ");
 		System.out.println("  ~                                     ~  ");
 		System.out.println("  |                                     |  ");
@@ -150,7 +144,7 @@ public class Tacos {
 		System.out.println("  ~                                     ~  ");
 		System.out.println("  |                                     |  ");
 		System.out.println("  ~                                     ~  ");
-		System.out.println("  |~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|~|  ");
+		System.out.println("  |_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_|  ");
 		System.out.println("                                           ");
 		System.out.println("                                           ");
 		
