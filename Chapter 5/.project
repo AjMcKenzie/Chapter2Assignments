@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Chapter5Assignments</name>
+			<type>2</type>
+			<location>C:/Users/am312792/Desktop/Git Repository/Chapter5Assignments</location>
+		</link>
+	</linkedResources>
 </projectDescription>
