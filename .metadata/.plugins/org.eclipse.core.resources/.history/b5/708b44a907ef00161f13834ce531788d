@@ -1,0 +1,40 @@
+package decisionMaking;
+import java.util.Scanner;
+/**
+ * @author AM312792
+ *
+ */
+public class AgeProgram 
+{
+
+	public static void main(String[] args) 
+	{
+		int age; //
+		
+		Scanner input = new Scanner (System.in);
+		
+		System.out.print("Please enter your age? >>>> ");
+		age = input.nextInt();
+		if(age <= 18)
+		{
+			System.out.println("User is less than 18.");
+		}
+		if(age > 18 && age < 30)
+		{
+			System.out.println("User is older than 18.");
+		}
+		if(age > 31 && age < 50)
+		{
+			System.out.println("Time for kids!, unless you hate kids.");
+		}
+		if(age > 51 && age < 65)
+		{
+			System.out.println("Tell your grandson/granddaughter to stop helping you learn this.");
+		}
+		if(age > 66 && age < 100)
+		{
+			System.out.println("What dinosaur did you have.");
+		}
+	}
+
+}
