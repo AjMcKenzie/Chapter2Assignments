@@ -742,3 +742,8 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2017-02-10 13:24:50.567
 !MESSAGE Installedjava
+
+!ENTRY org.eclipse.core.resources 2 2 2017-02-10 13:30:51.177
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2017-02-10 13:30:51.177
+!MESSAGE The project description file (.project) for 'Chapter 5' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
