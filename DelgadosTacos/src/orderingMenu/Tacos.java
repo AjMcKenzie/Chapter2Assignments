@@ -154,13 +154,7 @@ public class Tacos {
 		System.out.println("                                           ");
 		System.out.println("                                           ");
 		
-	
-	
-	
-	
-	
-	
-	
+
 	}	
 	public static void tacoTruck()
 	{
@@ -192,5 +186,5 @@ public class Tacos {
 		System.out.println("         oo       oo                    oo       oo                                                                               ");
 		System.out.println("          oo     oo                      oo     oo                                                                                ");
 		System.out.println("            ooooo                          ooooo                                                                                  ");
-		}
+	}
 }
