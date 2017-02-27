@@ -1,7 +1,7 @@
 package decisionMaking;
 import java.util.Scanner;
 /**
- * @author AM312792
+ * @author am312792
  *
  */
 public class doorPrize 
